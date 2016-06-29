@@ -1,0 +1,34 @@
+{
+  "name": "koa2-startkit",
+  "version": "1.0.0",
+  "description": "koa v2 startkit.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marsprince/koa2-startkit"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "babel",
+    "es2015"
+  ],
+  "author": "marsprince",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marsprince/koa2-startkit/issues"
+  },
+  "homepage": "https://github.com/marsprince/koa2-startkit#readme",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node5": "^1.1.2",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "nodemon": "^1.8.1"
+  }
+}
